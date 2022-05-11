@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(44%, #090979), to(#056275));
+  background: linear-gradient(90deg, #020024 0%, #090979 44%, #056275 100%);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  height: 500px;
+  width: 500px;
+}
+
+.img {
+  width: 215px;
+  height: 136.75px;
+  border: 2px solid black;
+  background: #0a2400;
+  background: linear-gradient(135deg, #0a2400 0%, #00d4ff 0%, #0404b5 100%);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p#texte {
+  margin-top: 40px;
+}
+
+nav {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px black;
+  font-size: x-large;
+  color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul a:hover {
+  color: black;
+  text-shadow: 0 0;
+}
+
+.reseau {
+  margin-top: 100px;
+  width: 60px;
+  height: 60px;
+}
+/*# sourceMappingURL=css.css.map */

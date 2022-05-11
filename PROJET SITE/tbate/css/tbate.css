@@ -1,0 +1,267 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    background: #f6f6f6;
+    background: radial-gradient(circle, #f6f6f6 0%, #040404 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". SITE ." ". SITE ." ". SITE .";
+}
+
+.SITE {
+    grid-area: SITE;
+}
+
+.img {
+    width: 143.33px;
+    height: 78.1428px;
+    transition: -webkit-transform .9s;
+    -webkit-transition: -webkit-transform .9s;
+    transition: transform .9s;
+    transition: transform .9s, -webkit-transform .9s;
+}
+
+.img:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.header_img {
+    width: 941.10px;
+    height: 402.21px;
+    border: 2px solid black;
+}
+
+nav {
+    color: white;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    color: #f5c7e9;
+    text-shadow: 1px 1px black;
+    font-size: medium;
+}
+
+p {
+    text-shadow: 1px 1px black;
+    color: white;
+    font-size: smaller;
+}
+
+#pres {
+    float: left;
+    width: 305px;
+    height: 205px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+}
+
+#pres p {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#synopsis {
+    float: right;
+    margin-bottom: 5px;
+    width: 630.1px;
+    height: 205px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+}
+
+#synopsis p {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#perso table {
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+}
+
+#perso table td {
+    width: 100%;
+    border: 1mm ridge rgba(0, 0, 0, 0.301);
+    text-align: center;
+    color: #f5c7e9;
+    text-shadow: 1px 1px black;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#perso .imgperso {
+    width: 160px;
+    height: 196px;
+}
+
+#perso .nom {
+    color: white;
+}
+
+#note {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+    text-align: left;
+}
+
+#note h1 {
+    text-align: left;
+}
+
+#note li {
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#note #aprgauche {
+    margin-top: 0px;
+    float: left;
+}
+
+#note #aprdroite {
+    float: right;
+    margin-top: 50px;
+}
+
+#note #aprtitre {
+    text-align: center;
+}
+
+progress {
+    -webkit-appearance: none;
+}
+
+progress::-moz-progress-bar {
+    background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+    background: #f5c7e9;
+}
+
+progress::-webkit-progress-bar {
+    background: gray;
+}
+
+#vente {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+}
+
+#vente h1 {
+    font-size: x-large;
+}
+
+#vente ul {
+    float: left;
+}
+
+#vente ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+#vente ul li p {
+    margin: 0;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#vente ul li img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+}
+
+#vente #video {
+    margin-right: 40px;
+    float: right;
+    border: 2px solid black;
+}
+
+#footer {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+#footer ul h1 {
+    text-align: center;
+    margin-right: 170px;
+}
+
+#footer li {
+    margin-left: 5px;
+    display: inline;
+}
+
+#footer li img {
+    height: 40px;
+    width: 40px;
+}
+
+.reseau {
+    transition: -webkit-transform .9s;
+    -webkit-transition: -webkit-transform .9s;
+    transition: transform .9s;
+    transition: transform .9s, -webkit-transform .9s;
+}
+
+.reseau:hover {
+    -webkit-transform: translate(0, 75%);
+    transform: translate(0, 75%);
+}
+
+
+/*# sourceMappingURL=tbate.css.map */
